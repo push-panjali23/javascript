@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="index01.js"></script> -->
+</head>
+
+<body>
+
+
+    <!-- javascript is a programming language  -->
+    <h1>Learning javascript </h1>
+    <div id="container">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi delectus mollitia accusamus dolorem, libero
+        harum, nihil eveniet tenetur ipsam modi, natus sint minima commodi? Accusantium!
+    </div>
+    <div id="use">
+        <button id="click">click Here</button>
+    </div>
+
+</body>
+<script>
+    // it's also called a dom mainipulation
+    // javascript console API
+    // ways to print js in screen
+
+    // this is use to show msg in screen
+    // alert("whats your name... ??");
+    // prompt();
+
+
+    // // print display screen
+    // //we can use (console.log , console.warn , console.error) to print your msg in console
+    // document.write("welcome to learning js.....");
+    // console.log("hello !....", 4 + 5, "addition");
+    // console.warn("this is warnnig");
+    // console.error("this is an error");
+    // console.clear(" this is use to clear console screen");
+
+
+    // // innerHTML always use with id Like here is a container
+    // //this is use to change written paragraph into given paragraph
+    // container.innerHTML = "Hello !.... pushpanjali what do you want to learn in js ";
+
+
+    // // use.innerHTML="am i button??"
+    // click.innerHTML = "click Now";
+
+    // variables in javascript.. variables are container to store data values
+    var number = 5;
+    var number1 = 6;
+    console.log(number + number1);
+
+    // datatypes in javascript 
+    //numbers
+    var number = 5;
+    var number1 = 6;
+
+    //strings we can write single and double qoutes
+    var str = "this is string";
+    var str1 = 'this is string22';
+
+    //objects
+    var marks = {
+        sam: 45, ravi: 69, shyam: 87, ram: 90
+    }
+    console.log(marks);
+
+    //booleans returns true false
+    var a = true;
+    var b = false;
+    console.log(a);
+    console.log(a - b);
+    // it returns 1 beacuse true = 1 and false= 0 then 1-0 =1 
+
+
+    //undefined
+    //   var und = undefined;
+    var und;
+    //by default undifined
+    console.log(und)
+    var n = null;
+    console.log(null)
+
+
+    /* at a hight level thier two types of datatype
+     in javascript 
+       1. primitive dtattype undifined nul number, string ,boolean , symbol
+        2. reference datatype  
+        */
+
+
+
+    //functions in javascript
+
+    function avg(a, b) {
+        return c = (a + b) / 2;
+
+    }
+    c1 = avg(5, 10);
+    console.log(c1);
+
+
+    //conditional statement
+
+    var age = 20;
+    if(age >18 ){
+        document.write("you are adult now !");
+    }else{
+        document.write("you not are adult now !");
+
+    }
+
+
+    //loops in javascript
+
+    var arr=[1, 2, 3, 4, 5, 6];
+    // console.log(arr);
+    // for(var i=0; i<arr.length;i++ );
+    // console.log(arr[i]);
+
+arr.forEach(function(element){
+    console.log(element);
+
+})
+
+// while loop
+
+let j = 0;
+
+</script>
+
+</html>
