@@ -4,7 +4,7 @@
     // ways to print js in screen
     alert("whats your name... ??");
     prompt();
-// this is use to print msg in screen
+    // this is use to print msg in screen
 
     document.write("welcome to learning js");
     // print display screen
@@ -20,4 +20,35 @@
     // use.innerHTML="am i button??"
     // this text is convertd button in a text
 
-//hello
+
+    // var ,const, let 
+    // var (  before Ecma script we use var but after ecma script we use let ...var is not block scoped so we use let if you wants blocked scope)
+    // const( const are unchangeable if you define const you can't change & modify it)
+    // let (let are blocked scope)
+  
+
+    let a = 10;
+    let c = "hello";
+    let authore= "pushpanjali";
+
+    //primitive datatype in javascript we have 7 datatypes 
+    // primitive datatypes are fundamental datatypes that are built-in Inside js
+    // primiitive datatypes are NNSSBBU N:NuLL, N:Number , 
+    //                   S:Symbol, S: String, B:Boolean, B:Bigint, U: Undifined
+
+
+
+   let N = null;
+   let n =  5  ;//number 
+   let S = symbol("i'm symbol");//symbol
+   let s= "hello";//string
+   let B= true;//boolean
+   let b=BigInt("564");//BigInt
+   let U= undefined;
+
+
+
+
+
+
+   // and OBJECT are non primitive datatype
