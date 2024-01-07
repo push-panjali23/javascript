@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <script src="index01.js"></script> -->
+  </head>
+
+  <body>
+    <!-- javascript is a programming language  -->
+    <h1>Learning javascript</h1>
+</head>
+<body>
+    <h1>We are learnning javaScript please join us</h1>
+    <h3>
+      Right click on mouse , go to inspect and then go to console finally ....<br />
+      see your javaScript's output there
+    </h3>
+    </body>
+  <script>
+
+     // there are 2 types of gor loop 1st for in and 2nd for of
+
+     //for loop
+   //let sum = 0;
+     let n= prompt("enter the value of n :");
+     n = Number.parseInt(n)
+     console.log("print 1 to 5 number : ");
+     for(let i = 1;i<n;i++){
+        //sum+=(i+1);
+        console.log(i);
+      }
+
+      // for in
+let obj={
+    ram :78,
+    shyam:76,
+    kishn:79,
+}
+for(let a in obj){
+   // console.log(a)  //print keys like name
+    console.log("marks of "+a+" are "+obj[a])  //print keys & value both like name & number
+
+}
+
+      //for of
+for(let b of "kishn"){
+    console.log(b);
+}
+
+      // while loop 
+      while(i<5){
+        console.log("hello pushpanjali while");
+        i++;
+      }
+
+
+      // do while
+      do{
+        console.log("hello pushpanjali do while");
+        i++;
+      }
+      while(i<10);
+  </script>
+  </html>
