@@ -1,0 +1,50 @@
+//   <------ for login github acc--------->
+// git config --global user.name (name)
+// git config --global user.email (email) 
+
+//   <------how to check--------->
+// git config --global user.name 
+// git config --global user.email 
+
+//   <------enter any directory or folder--------->
+//  cd (use cd command enter any folder )
+//  ls (to check file lists)
+
+//   <------open vs code--------->
+// code .
+
+//   <------initial repo--------->
+// git init 
+
+//   <------create file --------->
+//  git touch (filename.extention)
+
+//   <------delete file --------->
+//git rm (filename.extention)----- completely delete
+
+          // if you want to remove only staging area then use
+       //  git rm -- catched fileNAme  (file exist but remove from staging area ) 
+
+
+//   <------ check status --------->
+// git status
+
+//   <-------- track file staging area --------->
+// git add fileName or ( -A) ---- for all files
+
+//   <-------- commit --------->
+// git git commit -m "print some msg"
+
+//   <-------- check out--------->
+// git checkout      (any file name)-- this command is used to modified file for check last commit 
+                               // if by mistake your file are modified and you want to back the connent of file then use checkout command
+  // git checkout -f           (for all modified files 5,6 files)  
+  
+  // <-------------- log command -------->
+  // git log             ( it's used to see what was you commits)
+//   git log -p -1         ( 1,2,3 any commit you want to see then use numbers like 2,4,5,6)
+
+//   <--------diff --------->
+// git diff (compaire current file and modified file and tell us)
+                 //  compair working directory to staging area
+
