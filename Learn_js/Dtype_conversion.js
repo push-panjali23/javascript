@@ -33,7 +33,7 @@ console.log(ValueInNumber3);  //NaN
  let booleanIsLoggedIn = Boolean(isLoggedIn);
  console.log(booleanIsLoggedIn);  // true
   // now its convert into boolean value then we check 
- consolg.log(typeof(booleanIsLoggedIn)); // typeof = boolean
+ console.log(typeof(booleanIsLoggedIn)); // typeof = boolean
 
  //when we put  " " (empty string) ---------> false ,
  // when we put  pushpanjali ----------------> true
