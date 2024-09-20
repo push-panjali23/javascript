@@ -160,7 +160,7 @@ console.log(elem6);
 console.log(elem7);
 
 
-// //  remove event listenor
-// function clrchang() {
-//        document.getElementById("btn").removeEventListener("click", bgclrchang);
-// }
+//  remove event listenor
+function clrchang() {
+       document.getElementById("btn").removeEventListener("click", bgclrchang);
+}
