@@ -46,3 +46,9 @@ console.log(ValueInNumber3);  //NaN
 //   console.log(stringNum);
 //   console.log(typeof(stringNum));
 //   ------------type of = string
+
+//--------------------------------- operations on dtypes----------------------
+
+let value = 5;
+let negValue = -value;
+console.log(negValue);
