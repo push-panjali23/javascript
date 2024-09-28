@@ -28,18 +28,18 @@ click.innerHTML = "click Now";
 alert("whats your name... ??");
 prompt();
 
-// // print display screen
-// //we can use (console.log , console.warn , console.error) to print your msg in console
-// document.write("welcome to learning js.....");
-// console.log("hello !....", 4 + 5, "addition");
-// console.warn("this is warnnig");
-// console.error("this is an error");
-// console.clear(" this is use to clear console screen");
+// print display screen
+//we can use (console.log , console.warn , console.error) to print your msg in console
+document.write("welcome to learning js.....");
+console.log("hello !....", 4 + 5, "addition");
+console.warn("this is warnnig");
+console.error("this is an error");
+console.clear(" this is use to clear console screen");
 
-// // innerHTML always use with id Like here is a container
-// //this is use to change written paragraph into given paragraph
-// container.innerHTML = "Hello !.... pushpanjali what do you want to learn in js ";
+// innerHTML always use with id Like here is a container
+//this is use to change written paragraph into given paragraph
+container.innerHTML = "Hello !.... pushpanjali what do you want to learn in js ";
 
-// use.innerHTML="am i button??"
+use.innerHTML="am i button??"
 click.innerHTML = "click Now";
 
