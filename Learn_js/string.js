@@ -1,58 +1,12 @@
-// there are 2 types of gor loop 1st for in and 2nd for of
-
-//for loop
-//let sum = 0;
-let n = prompt("enter the value of n :");
-n = Number.parseInt(n)
-console.log("print 1 to 5 number : ");
-for (let i = 1; i < n; i++) {
-  //sum+=(i+1);
-  console.log(i);
-}
-
-// for in
-let obj = {
-  ram: 78,
-  shyam: 76,
-  kishn: 79,
-}
-for (let a in obj) {
-  // console.log(a)  //print keys like name
-  console.log("marks of " + a + " are " + obj[a])  //print keys & value both like name & number
-
-}
-
-//for of loop 
-let string = "pushpanjali";
-let size = 0;
-for (let b of string) {
-  console.log(b);  //print all single character
-  size++;
-}
-console.log("size =", size); // 11
-
-
-
-// while loop 
-let i = 0;
-while (i < 5) {
-  console.log("hello pushpanjali (while)");
-  i++;
-}
-
-
-// do while
-do {
-  console.log("hello pushpanjali ( do while)");
-  i++;
-}
-while (i < 10);
-
-//            <--------------   strings     ------------>
-
 //there are two ways to creat string like
 // 1. "" ;
 // 2. '' ;
+
+const name = "PAYAL";
+const score = 75;
+// console.log(name + score + "gain") ; // concat
+console.log(`my name is ${name} my score is${score}`);// use back tics
+console.log(`my name is ${name.toLowerCase(name)} my score is${score}`);// use any methods like this and your name convert into lowerCase
 
 //<----------template literal (expression like ${1+2}) or strimg interplation ${object.item}----------->
 
@@ -70,7 +24,18 @@ console.log(output);
 //    \ and n count is 1 not 2 like pushpa\nanjai 13 words
 // but length is 12 because \n is count as 1 word
 
-//              < ------string methode--------->
+//--------------------------------------------STRINGS--------------------------------------------------------
+
+const myName = new String('pushpanjali');
+console.log(myName[0]);
+console.log(myName.__proto__); // if you want to see all methods go to inspect and check it
+// and apply like this
+console.log(myName.toUpperCase());
+
+const NewString = myName.substring(0, 4);
+console.log(NewString);
+
+//  < ---------------------------------------------string methode---------------------------------------->
 
 let string1 = "pushpanjali";
 let string2 = "PUSHPANJALI";
@@ -79,12 +44,14 @@ console.log(string1.toUpperCase());
 console.log(string2.toLowerCase());
 console.log(string3.trim()); // only remove sstrting and ending spaces
 console.log(string1.slice(0, 6)); //pushpa
+// console.log(string1.slice(-13, 5)); //if you give -value then it print reverse string start with last char 
 console.log(string1.concat(string1, string3));
-console.log(string1.replace("pushpa", "A"));
+console.log(string1.replace("pushpa", "A"));// 1st value give any char or string which is searched and replaced it our 2nd value
 console.log(string1.charAt(4)); //p
+console.log(string1.includes('pan')); // if you want to know any char like('pan') exist or not if exist it returns true 
+console.log(string3.split(' '));// it shows array of spaces and string
 
 // How to Get Character of Specific Position using JavaScript?
-
 
 let p = 0;
 let str = "Hello";
