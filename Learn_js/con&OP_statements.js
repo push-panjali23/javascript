@@ -1,13 +1,9 @@
 
-
-
-
 //Operators
 
 let x = 15;
 let y = 5;
 let z = "15"; //as astring data type and then convert  into a number 
-
 
 console.log("x+y =", x + y);  // x+=y
 //  console.log(x+=y); 
@@ -46,7 +42,6 @@ console.log(++x);// increase then print
 
 //       <-----comparision operators---------->      
 
-
 console.log("x == y = ", x == y);
 console.log("x == z = ", x == z); // output is true 
 // x is a number and z is a string but this(==) comparison operatos check only values
@@ -66,8 +61,8 @@ console.log("x >= y = ", x >= y); // greater than equal to ..... false
 console.log("x < y = ", x < y); // less than true
 console.log("x <= y = ", x <= y); // less than equal to //// true
 
+//       <-----logical operators---------->    
 
-//       <-----logical operators---------->      
 let val1 = x > y; // true 
 let val2 = x === z // false
 let val3 = x == z // true 
@@ -92,10 +87,6 @@ console.log("val2 || val4 = ", val2 || val4); //true s
 console.log("!(val5) = ", !(val5)); // true
 
 //       <-----conditional statements---------->      
-
-
-
-
 
 // let a = prompt("what's your age ??");
 // a = Number.parseInt(a) // because in js all datatypes are consider as a string 
@@ -131,8 +122,6 @@ console.log("!(val5) = ", !(val5)); // true
 let mode = prompt("what mode you want??"); //because we want string typr value
 // so we didn't convert into a number  other wise we use <---- mode = Number.parseInt(mode) 
 let color;
-
-
 
 if (mode === "dark") {
     color = " black";

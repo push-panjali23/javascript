@@ -1,3 +1,5 @@
+// here array is collection of diffrent types of Datatype like string, var, boolean, char etc
+
 let nam = ["ram", "rita", "geeta", "sita", "rama"];
 
 // for (let i = 0; i < nam.length; i++) {
@@ -10,6 +12,7 @@ for (let name of nam) {
 
 let x = [16, 2, 6, 5, 9, 10, 8, 15];
 console.log(x);
+console.log(x.__proto__);
 
 let y = x.toString();
 // this function converts arrays into a string return new array
@@ -22,7 +25,7 @@ console.log(x, y1);
 let y2 = x.pop()
 console.log(x, y2); // return the poped element at the end original
 
-let y3 = x.push(20 , 56); // push item in the end 
+let y3 = x.push(20, 56); // push item in the end 
 console.log(x, y3);
 
 let y4 = x.shift(); // remove 1st element and return it like pop
@@ -59,3 +62,9 @@ let newar = arr1.slice(1);
 console.log(newar);
 // arr1.slice(3,90);
 
+let ARR = [1, 'ram', true, 'A', 56];
+console.log(ARR);
+console.log(typeof (ARR)); // object 
+
+let conversionOfObjToArr = Array(ARR); // creating array 
+console.log(conversionOfObjToArr); // objet is convert into array 

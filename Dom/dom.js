@@ -149,10 +149,10 @@ let elem7 = document.getElementById("btn").addEventListener("mouseenter", clrcha
 
 // });
 function bgclrchang() {
-    document.getElementById("btn").style.backgroundColor = "blue";
+  document.getElementById("btn").style.backgroundColor = "blue";
 }
 function clrchang() {
-    document.getElementById("btn").style.color = "red";
+  document.getElementById("btn").style.color = "red";
 }
 
 
@@ -162,5 +162,5 @@ console.log(elem7);
 
 //  remove event listenor
 function clrchang() {
-       document.getElementById("btn").removeEventListener("click", bgclrchang);
+  document.getElementById("btn").removeEventListener("click", bgclrchang);
 }

@@ -42,14 +42,12 @@ const dict = {
   decision1: "choice or judgement that you make after thinking about various possibilities",
   sky1: "the space that you can see when you look up from the earth, and where you can see the sun, moon and stars"
 
-
 }
 
 console.log(dict);
 console.log(dict.sky);
 
 console.log('learn');
-
 
 const profile = {
   userName: "@pushpanjali-soni",
