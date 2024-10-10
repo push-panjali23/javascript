@@ -52,6 +52,7 @@ array.forEach(printVal);
 // });
 
 ///     <--------------Array method------------>
+
 //               MAP JUST LIKE FOREACH LOOP 
 // BUT MAP IS USED TO CREATE NEW ARRAY AND FOR EACH IS USED TO CALCULATE OR PRINT EACH VLUES AND ELEMENTS
 // map(callbackfn: (value: number, index: number, array: number[]) => any, thisArg?: any): any[]
@@ -62,6 +63,7 @@ let newAr = array.map((val) => {
 console.log(`using map this is new array multiplied by 2 :${newAr}`);
 
 //         -----------FILTER (ARRAY METHOD)-------------
+
 // JUST LIKE MAP BUT CONDITION IS TRUE VALUE IS STORED IN A NEW ARRAY 
 
 let evenArray = array.filter((val) => {
@@ -71,6 +73,7 @@ let evenArray = array.filter((val) => {
 console.log(`this is new filterd Evenarray using filter method : ${evenArray}`);
 
 //         --------------REDUcE (ARRAY METHOD)-------------
+
 // PERFORMS SOME OPERATIONS & REDUCES THE ARRAY  to a single value it returns that single value
 let output = array.reduce((previous, current) => {
   return previous + current;
