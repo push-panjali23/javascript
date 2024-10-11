@@ -80,6 +80,12 @@ console.log(conversionOfObjToArr); // objet convert into array
 
 // asking some question using some operetions to given array 
 
+//1. includes
+//2. indexof
+//3. isArray
+//4. from
+//5. of
+
 console.log(arr);
 console.log(arr.includes(15)); // false 
  // if number is present in working array it will show true
@@ -88,6 +94,22 @@ console.log(arr.includes(22)); // true
 
 console.log(arr.indexOf(23)); // because 23 is not present in array so it will show us -1 
 console.log(arr.indexOf(22)); // 22 is present then it show us index of given number & here index of 22 is 6
+
+// Array is not created in entire js file
+console.log(Array.isArray("pushpanjali")); // if string is present returns true if not returs false
+console.log(Array.from("pushpanjali")); // convert string into an array
+
+// isArray is not created string into array it will show empty array[] like:
+console.log(Array.from({name : "pushpanjali"})); 
+
+// here all dataType convert into array using Array.of
+let score1 = 100;
+let score2 = 200;
+let score3 = 300;
+let score4 = 400;
+let score5 = 500;
+console.log(Array.of(score1, score2, score3, score4, score5)); 
+
 
 //************************************join both array***************************** */
 
@@ -101,8 +123,21 @@ const dc_heros = ['superman', 'flash' , 'batman'];
 // console.log(all_heros);
 // console.log(all_heros.length); // 6
 
-// we use spread to jion both array 
+// we use spread operator to join both array 
 
 const All_New_Arr = [...marvel_heros, ...dc_heros];
 console.log(All_New_Arr);
+console.log(All_New_Arr[4]);
+console.log(All_New_Arr[2]);
+console.log(All_New_Arr[5]);
 console.log(All_New_Arr.length);
+
+//*********************************flat ********************************* */
+
+// flat is used to convert arr insideArr is simpal array like [2, 3, 4, 4, 2, 5, 1]
+// Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth
+const arr_insideArr = [2, 3, 4, 2 , [1, 0, 3,] ,6 , 8, [2, 9 ,[5, 7 ,9, [7, 9, 4, [11, 17, 19], 7, 4], 1, 4], 12, 15, 2, ],5, 0];
+const flatArr = arr_insideArr.flat(4); // here complete depth of this array is 4 flat(depth)
+// if depth number is wrong our array will not be flat like 1D array
+// const flatArr = arr_insideArr.flat(Infinity); // whenever we can not count the depth of array... so we use Infinity
+console.log(flatArr);
