@@ -52,13 +52,13 @@ instaUser.isLoggedIn = false;
 
 console.log(instaUser);
 
- const regularUser = {
+const regularUser = {
     comEmail: "www.user034@gmail.com",
-    comIdNo_:"0940001",
+    comIdNo_: "0940001",
     userInfo: {
-        email:"pushpanjali342@gmail.com",
+        email: "pushpanjali342@gmail.com",
         userId: 24001,
-        address:"bansagar colony rewa(M.P)",
+        address: "bansagar colony rewa(M.P)",
 
         fullName: {
             firstName: "pushpanjali",
@@ -69,21 +69,19 @@ console.log(instaUser);
             persnalNo_: "7225854767",
             WpNo_: "7325854767"
         }
-
-
     }
 }
 console.log(regularUser.userInfo);
 console.log(regularUser.userInfo.fullName);
 console.log(regularUser.userInfo.contactInfo);
 
-const obj01={1: "a", 2: "b"};
-const obj02={3: "c", 4: "d"};
-const obj03={5: "e", 6: "f"};
+const obj01 = { 1: "a", 2: "b" };
+const obj02 = { 3: "c", 4: "d" };
+const obj03 = { 5: "e", 6: "f" };
 
 // const obj04 = Object.assign(obj01,obj02,obj03);
 // const obj04 = Object.assign({},obj01,obj02,obj03);// both are same 
-const obj04 = {...obj01, ...obj02, ...obj03}; // spread operator
+const obj04 = { ...obj01, ...obj02, ...obj03 }; // spread operator
 
 console.log(obj04);
 
@@ -97,4 +95,44 @@ console.log(Object.keys(instaUser));
 // asking question 
 
 console.log(info.hasOwnProperty('frequentScores')); // we are asking inside info object any frequentScores exist or not 
-//if exist returns true if not returns false 
+//if exist returns true if not returns false
+
+//****************************************object de-structure*************************************  */
+
+const course = {
+
+    cousreName: "javascript",
+    courseIsPaid: true,
+    coursePrice: "9999",
+    courseInstructor: "chai aur code (Hitesh choudhary)"
+
+}
+
+// console.log(course.courseInstructor);
+
+// const {courseInstructor} = course;
+// console.log(courseInstructor);
+
+// it's called de-structering
+
+const {courseInstructor: instructor} = course; 
+// here we can say courseInstructor is only instructor
+console.log(instructor);  // all ways are right 
+
+//****************************************json************************************* */
+// json is javascript object notation
+
+// {
+//     "name" : "pushpanjali" ,
+//     "course" : "js",
+//     "isPaid" : false,
+
+// }
+
+//json in array fromat 
+
+// [
+//     {},
+//     {},
+//     {}
+// ];
