@@ -56,6 +56,28 @@ function loginUsermMsg1(userName) {
 }
 console.log(loginUsermMsg());
 
+// ***********************************REST OPERATOR********************************
+
+// REST OPERATOR is also called a spread operartor 
+//**************************with rest opetator****************** */
+
+function addToCartItems (...val1){
+// function addToCartItems (val, val0 ,...val1){ // print all items prize
+
+//function addToCartItems (...val1){
+  // here ... is rest(spread) operator 
+return val1;
+}
+console.log(addToCartItems(659, 890, 673, 789));
+
+//**************************without rest opetator****************** */
+
+// function addToCartItems (val1){ 
+// //function addToCartItems (val,val0,val1){ //print only 3 items prize
+// return val1;
+// }
+// console.log(addToCartItems(659, 890, 673, 789));
+
 
 // **********************************Arrow-function*********************************
 
