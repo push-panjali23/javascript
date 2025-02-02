@@ -1,5 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            /* css for useCapture-para.Html  */
+            .container {
+                padding: 0;
+                margin: 0;
+            }
+
+            #inner {
+                padding: 50px;
+                margin: 50px;
+
+                background-color: rgb(245, 86, 86);
+            }
+
+            #outer {
+                padding: 200px;
+                margin: 200px;
+                background-color: rgb(9, 84, 197);
+            }
+        </style>
+    </head>
+
+<body>
+
+    <div id="outer">
+        <h1> OUTER CONTAINER</h1>
+        <div id="inner">
+            <h1> INNER CONTAINER</h1>
+
+        </div>
+    </div>
+
+    <script>
+        //         <---------- use capture parameter ------------->
+
+        let useCap = document.querySelector("#inner").addEventListener("click", function () {
+            alert("Innner Div");
+        });
+
+        let useCap2 = document.querySelector("#outer").addEventListener("click", function () {
+            alert("Outer Div");
+        });
+
+    </script>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

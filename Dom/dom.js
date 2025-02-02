@@ -1,3 +1,54 @@
+<<<<<<< HEAD
+// it's also called a dom mainipulation
+// javascript console API
+// ways to print js in screen
+let name = alert("whats your name... ??");
+const userName = prompt()
+// this is use to print msg in screen
+ let printMSg = "welcome to learning js "
+let showMsg = printMSg + userName
+console.log(showMsg);
+
+// print display screen
+document.write();
+console.log("hello !....", 4 + 5, "addition");
+console.warn("this is warnnig");
+console.error("this is an error");
+//we can use (console.log , console.warn , console.error) to print your msg in console
+// console.clear(" this is use to clear console screen");
+
+container.innerHTML =
+  "Hello !.... pushpanjali what do you want to learn in js ";
+// innerHTML always use with id Like here is a container
+click.innerHTML = "click Now";
+// use.innerHTML="am i button??"
+// this text is convertd button in a text
+
+// it's also called a dom mainipulation
+// javascript console API
+// ways to print js in screen
+
+// this is use to show msg in screen
+alert("whats your name... ??");
+prompt();
+
+// // print display screen
+// //we can use (console.log , console.warn , console.error) to print your msg in console
+// document.write("welcome to learning js.....");
+// console.log("hello !....", 4 + 5, "addition");
+// console.warn("this is warnnig");
+// console.error("this is an error");
+// console.clear(" this is use to clear console screen");
+
+// // innerHTML always use with id Like here is a container
+// //this is use to change written paragraph into given paragraph
+// container.innerHTML = "Hello !.... pushpanjali what do you want to learn in js ";
+
+// use.innerHTML="am i button??"
+click.innerHTML = "click Now";
+
+=======
+>>>>>>> main
 //        =====================DOCUMENT OBJECT MODEL==================
 
 // WINDOW OBJECT 
@@ -104,10 +155,17 @@ let elem7 = document.getElementById("btn").addEventListener("mouseenter", clrcha
 
 // });
 function bgclrchang() {
+<<<<<<< HEAD
+  document.getElementById("btn").style.backgroundColor = "blue";
+}
+function clrchang() {
+  document.getElementById("btn").style.color = "red";
+=======
     document.getElementById("btn").style.backgroundColor = "blue";
 }
 function clrchang() {
     document.getElementById("btn").style.color = "red";
+>>>>>>> main
 }
 
 
@@ -115,7 +173,14 @@ console.log(elem6);
 console.log(elem7);
 
 
+<<<<<<< HEAD
+//  remove event listenor
+function clrchang() {
+  document.getElementById("btn").removeEventListener("click", bgclrchang);
+}
+=======
 // //  remove event listenor
 // function clrchang() {
 //        document.getElementById("btn").removeEventListener("click", bgclrchang);
 // }
+>>>>>>> main
