@@ -24,3 +24,9 @@
 // Variables declared Globally (outside any function) have Global Scope.
 // Global variables can be accessed from anywhere in a JavaScript program.
 
+
+// JavaScript variables have 3 types of scope:
+
+// Block scope
+// Function scope
+// Global scope

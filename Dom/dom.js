@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // it's also called a dom mainipulation
 // javascript console API
 // ways to print js in screen
@@ -46,6 +47,8 @@ prompt();
 // use.innerHTML="am i button??"
 click.innerHTML = "click Now";
 
+=======
+>>>>>>> main
 //        =====================DOCUMENT OBJECT MODEL==================
 
 // WINDOW OBJECT 
@@ -152,10 +155,17 @@ let elem7 = document.getElementById("btn").addEventListener("mouseenter", clrcha
 
 // });
 function bgclrchang() {
+<<<<<<< HEAD
   document.getElementById("btn").style.backgroundColor = "blue";
 }
 function clrchang() {
   document.getElementById("btn").style.color = "red";
+=======
+    document.getElementById("btn").style.backgroundColor = "blue";
+}
+function clrchang() {
+    document.getElementById("btn").style.color = "red";
+>>>>>>> main
 }
 
 
@@ -163,7 +173,14 @@ console.log(elem6);
 console.log(elem7);
 
 
+<<<<<<< HEAD
 //  remove event listenor
 function clrchang() {
   document.getElementById("btn").removeEventListener("click", bgclrchang);
 }
+=======
+// //  remove event listenor
+// function clrchang() {
+//        document.getElementById("btn").removeEventListener("click", bgclrchang);
+// }
+>>>>>>> main
