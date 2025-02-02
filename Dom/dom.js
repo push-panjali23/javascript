@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // it's also called a dom mainipulation
 // javascript console API
 // ways to print js in screen
@@ -47,8 +46,6 @@ prompt();
 // use.innerHTML="am i button??"
 click.innerHTML = "click Now";
 
-=======
->>>>>>> main
 //        =====================DOCUMENT OBJECT MODEL==================
 
 // WINDOW OBJECT 
