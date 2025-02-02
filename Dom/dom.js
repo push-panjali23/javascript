@@ -1,12 +1,15 @@
 // it's also called a dom mainipulation
 // javascript console API
 // ways to print js in screen
-alert("whats your name... ??");
-prompt();
+let name = alert("whats your name... ??");
+const userName = prompt()
 // this is use to print msg in screen
+ let printMSg = "welcome to learning js "
+let showMsg = printMSg + userName
+console.log(showMsg);
 
-document.write("welcome to learning js");
 // print display screen
+document.write();
 console.log("hello !....", 4 + 5, "addition");
 console.warn("this is warnnig");
 console.error("this is an error");
